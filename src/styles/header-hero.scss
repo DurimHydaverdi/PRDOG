@@ -1,0 +1,67 @@
+.header-hero {
+    .header {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      background-color: transparent;
+      color: #971010;
+      margin-top: -100px;
+  
+      .header-logo {
+        font-size: 3rem;
+        font-weight: bold;
+      }
+  
+      .header-nav {
+        display: flex;
+        gap: 15px;
+  
+        a {
+          color: #971010;
+          text-decoration: none;
+          font-size: 2rem;
+          &:hover {
+            color: #c21313;
+          }
+        }
+        a svg {
+            height: 100px;
+            width: 100px;
+        }
+      }
+    }
+
+    .buy-token {
+        margin-top: 200px;
+        font-size: 60px;
+    }
+  
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+      height: 40vw;
+      background: url('/assets/first.png') no-repeat center/cover;
+      color: #fff;
+  
+      h1 {
+        font-size: 48px;
+      }
+  
+      p {
+        margin-top: 20px;
+        font-size: 32px;
+        font-weight: 600;
+        color: #c21313;
+      }
+  
+      .hero-button {
+        margin-top: 30px;
+        padding: 10px 20px;
+        background-color: #971010;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+    }
+  }
+  

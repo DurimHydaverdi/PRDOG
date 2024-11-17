@@ -1,0 +1,132 @@
+// Variables
+$primary-color: #0c1c40;
+$accent-color: #ffffff;
+$gradient: linear-gradient(135deg, #1e4d92, #4a80db);
+$gradient1: linear-gradient(135deg, #212b3b, #0f1d2f);
+
+.app {
+  background: $primary-color;
+  color: $accent-color;
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.header-logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.header-nav a {
+  margin: 0 15px;
+  color: $accent-color;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.header-nav a:hover {
+  text-decoration: underline;
+}
+
+.header-cta {
+  padding: 10px 20px;
+  background: none;
+  border: 2px solid $accent-color;
+  color: $accent-color;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.header-cta:hover {
+  background: $accent-color;
+  color: $primary-color;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero-title span {
+  color: #4a80db;
+}
+
+.hero-description {
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+.hero-graphic img {
+  max-width: 100%;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.info-card {
+  display: flex;
+  align-items: center;
+  background: $gradient1;
+  padding: 20px;
+  border-radius: 10px;
+  width: 45%;
+  text-align: left;
+}
+
+.info-image {
+  flex-shrink: 0;
+  margin-right: 20px;
+  width: 250px;
+}
+
+.info-image img {
+  width: 250px;
+}
+
+.info-text h3 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.info-text p {
+  font-size: 1rem;
+  color: lighten($accent-color, 20%);
+}
+
+.info-stats {
+  background: $gradient1;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.info-stats h3 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.info-stats p {
+  font-size: 1rem;
+  color: lighten($accent-color, 20%);
+}
